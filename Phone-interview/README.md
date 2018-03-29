@@ -183,7 +183,7 @@ June 5 - Interview
 
 Cheat Sheets:
 
-[Github Fork - descriptions, explanations, what we should know, etc.](https://github.com/JumpingRock/InterviewPrep/blob/master/CheatSheet.md)
+[Github Fork - descriptions, explanations, what we should know, etc.](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Phone-interview/CheatSheet.md)
 
 [Big-O](http://bigocheatsheet.com/)
 

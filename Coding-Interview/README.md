@@ -108,8 +108,6 @@ FB site to practice coding: https://codelab.interviewbit.com/registration. (Care
 [Career Cup All](https://urldefense.proofpoint.com/v1/url?u=http://www.careercup.com/page&k=ZVNjlDMF0FElm4dQtryO4A%3D%3D%0A&r=o9VHsJ%2BTQbeekdRqklYaQg%3D%3D%0A&m=bB6vQ6Sk82rAyJlAznTsNIaC8j0yLkci6hMN7nRqjdw%3D%0A&s=659156051803b8c256c2e5bb0ac08da8b51f3fd988b10dfad69b413ca7afaa19)
 
 ## Resources and Links
-[Github Fork - descriptions, explanations, what we should know, etc.](https://github.com/JumpingRock/InterviewPrep/blob/master/CheatSheet.md)
-
 [Big-O](http://bigocheatsheet.com/)
 
 [Tutorial point data structures and algos](https://www.tutorialspoint.com/data_structures_algorithms/index.htm)

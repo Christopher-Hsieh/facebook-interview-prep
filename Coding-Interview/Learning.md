@@ -1,3 +1,65 @@
+[CTCI Resources](http://www.crackingthecodinginterview.com/resources.html)
+
+[CTCI java library for node, trie, tree printer, etc.](https://github.com/careercup/CtCI-6th-Edition/tree/master/Java/CtCILibrary/CtCILibrary)
+
+[CTCI Solutions](https://github.com/careercup/CtCI-6th-Edition/tree/master/Java)
+
+
+
+| DataStructure | Implementation and Notes |
+| ------------- | ------------------------ |
+| [LinkedList](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#linkedlist) | Single and Double |
+| [Binary Tree](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#binary-tree) | Memorize Inorder, preorder, postorder. Implement DELETE in tree. Implement tree modified i.e. tracks sums. |
+| [Hash(Maps, Sets, Tables)](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#hashmaps-sets-tables) | [Hashsets, maps, tables](https://stackoverflow.com/questions/5407421/design-a-hashtable), know how to implement my own hash table in the space of an interview. |
+| [Stack](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#stack) | Review or rewrite basic stack |
+| [Queue](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#queue) | Review or rewrite basic queue |
+| [Graphs](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#graphs)  | Which representation is best?  |
+| [Trie](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#trie) | Insert, search, maybe delete.  Big Os |
+| [Hash array mapped Trie]() | [Wiki](https://en.wikipedia.org/wiki/Hash_array_mapped_trie) |
+| [Heap](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#heap) | [tutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm) - Heap as array. Insert new element at tail, bubbleup. Extract by swapping root w. bottommost rightmost element, bubbledown root.  |
+| [Vector+ArrayList](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#vector--arraylist) | Review basic API and how to use generics |
+| [Iterator](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#iterator) |Test self to get and use iterator i.e. for(String classObj : class) |
+| [Special Trees (Self-Balancing) - RedBlack](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#special-trees) | How to implement, traverse. Why are they good, FB mentioned red-black trees |
+| [Spanning Tree](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#spanning-trees) |
+
+| Algorithm | Implementation and Notes |
+| --------- | ------------------------ |
+| [Binary Search](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#binary-search) | Recursive(array, searchedForValue, low, high) |
+| [Bubble Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#bubble-sort) | Two for loops, comparing elements right next to each other. Usage - small data sets |
+| [Merge Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#merge-sort) | Remember only a few lines of code, and the recursion only takes an array as the single parameter. writing merge(left,right) is longest part |
+| [Quick Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#quick-sort) | choose pivot (usually rightmost), between lo and hi find all lower than pivot, insert pivot when lo = hi. Probably good for partially sorted data. choosing a random partition makes worst case less likely for a bad array. |
+| [Bucket Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#bucket-sort) | (check if more than just these two) __bucket sort good for uniformially distributed data or we could have tons of empty buckets__ Create buckets, hash values to each bucket, sort buckets individually, iterate buckets one by one to sorted array. |
+| [Radix Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#radix-sort) | Use counting sort on every digit, starting with least significant. |
+| [Counting Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#counting-sort) | __best for keys in a small specific range__ make array size of data range, add number of values appearances up in counting array. Use counting array to create sorted array.  |
+| [BFS](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#bfs) | Use a queue, mark nodes |
+| [DFS](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#dfs) | DFS(node) for node.children DFS(Child) => make nodes for cycles |
+| [*Selection Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#selection-sort) | Done | Select the smallest element, place it at the front. Repeat... |
+| [*Insertion Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#insertion-sort) | Iterate through list. Insert next element into subarray starting at front of original array |
+| [*Heap Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#heap-sort)| heapsort by extract root (swap w/ bottommost rightmost) bubbledown root using only remaining elements. |
+| [*Tree Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#tree-sort)| Turn data into BST, the in-order traversal for sorted data. |
+| [*Cube Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#cube-sort) | Complex 3d array sort. [info](https://sites.google.com/site/binarysearchcube/bsc) & [code for cubesort](https://docs.google.com/file/d/0B8KIVX-AaaGiUnJKcUN3SlRrU1E/edit) |
+| [*Shell Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#shell-sort) | Use insetion Sort on sub arrays. Sub arrays are determined by an interval: h = h*3+1. Shrink interval. __Useful for sorting small arrays in place, worst case is better than some other algos. Also simplier to implement__ |
+| [Djikstra, Bi-directional search]() | Investigate Djikstra, Bi-directional search and more - FB seems key about graphs, i.e. their main API |
+| [*Topological Sort]() | 4.7 in CTCI, order all nodes so edge (a, b), a appears before b. linearly sorted.  |
+
+| Concept | Implementation and Notes |
+| ------- | ------------------------ |
+| [Recursion](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#recursion) | Need practice for linked list, binary search, and others. Bottom up or top down. Bottom-up think mergesort - solve small subsets, then combine result. top-down - ? |
+| [Probability](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#probability)  |
+| [Bit Manipulation](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#bit-manipulation) | Need programming practice, general ops are good |
+| [Java & O-O Design](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#java--o-o-design)  | O-O concepts abstraction, inheritance, cohesion, coupling etc. & other mastery/Basic APIs - especially math |
+| [Threads, locks, mutex, semaphore](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#threads-locks-mutex-semaphore) |
+| [Dynamic Programming](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#dynamic-programming) | Memomiztion and bottom up. Memomization - solve each problem, cache results i.e. making a fib call to each number once. Bottom-up solve the small problems, use the results to add to your new set of sub-problems i.e. step counting problem, only set amount of ways to reach a new step, add prev totals also. __start with recursion then cache the result. Bottom up => build from previous, Top down => save results, check if you already solved__ |
+| [NP-Complete](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#np-complete)  |
+| [Memory (Stack vs. Heap)](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#memory-stack-vs-heap) |
+| [Minimum Cuts](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#minimum-cuts) |
+| [Powers of 2](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#powers-of-2) |
+
+| Trick | Explanation |
+| ------- | ------------------------ |
+| [Find digit in number](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#find-digit) | With 802 digit at place 2 is 8, place 1 is 0, place 0 is 2 |
+
+
 ### Extra
 - BitSet & BitVector classes - 8.4 bits
 - 8.9, possible common FB question 2D array
@@ -8,69 +70,7 @@
 - 5.3 look at code
 - 1.6, string builder ops
 
-[CTCI Resources](http://www.crackingthecodinginterview.com/resources.html)
 
-[CTCI java library for node, trie, tree printer, etc.](https://github.com/careercup/CtCI-6th-Edition/tree/master/Java/CtCILibrary/CtCILibrary)
-
-[CTCI Solutions](https://github.com/careercup/CtCI-6th-Edition/tree/master/Java)
-
-- add big-o and ϴ for time and space + access, delete, insert, search
-
-| DataStructure | Status | Implementation and Notes |
-| ------------- | ------ | ------------------------ |
-| [LinkedList](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#linkedlist) | not bad | Single and Double |
-| [Binary Tree](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#binary-tree) | Close | Memorize Inorder, preorder, postorder. Implement DELETE in tree. Implement tree modified i.e. tracks sums. |
-| [Hash(Maps, Sets, Tables)](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#hashmaps-sets-tables) | Done | [Hashsets, maps, tables](https://stackoverflow.com/questions/5407421/design-a-hashtable), know how to implement my own hash table in the space of an interview. |
-| [Stack](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#stack) | Done | Review or rewrite basic stack |
-| [Queue](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#queue) | Done | Review or rewrite basic queue |
-| [Graphs](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#graphs) |  | Which representation is best?  |
-| [Trie](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#trie) | Ok, implement again. Insert, search, maybe delete.  Big Os |
-| [Hash array mapped Trie]() | | [Wiki](https://en.wikipedia.org/wiki/Hash_array_mapped_trie) |
-| [Heap](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#heap) | Done | [tutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm) - Heap as array. Insert new element at tail, bubbleup. Extract by swapping root w. bottommost rightmost element, bubbledown root.  |
-| [Vector+ArrayList](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#vector--arraylist) | Done | Review basic API and how to use generics |
-| [Iterator](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#iterator) |  |Test self to get and use iterator i.e. for(String classObj : class) |
-| [Special Trees (Self-Balancing) - RedBlack](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#special-trees) |  | How to implement, traverse. Why are they good, FB mentioned red-black trees |
-| [Spanning Tree](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#spanning-trees) |
-
-| Algorithm | Status | Implementation and Notes |
-| --------- | ------ | ------------------------ |
-| [Binary Search](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#binary-search) | Done | Recursive(array, searchedForValue, low, high) |
-| [Bubble Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#bubble-sort) | Done | Two for loops, comparing elements right next to each other. Usage - small data sets |
-| [Merge Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#merge-sort) | Done | Remember only a few lines of code, and the recursion only takes an array as the single parameter. writing merge(left,right) is longest part |
-| [Quick Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#quick-sort) | Done | choose pivot (usually rightmost), between lo and hi find all lower than pivot, insert pivot when lo = hi. Probably good for partially sorted data. choosing a random partition makes worst case less likely for a bad array. |
-| [Bucket Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#bucket-sort) | Done | (check if more than just these two) __bucket sort good for uniformially distributed data or we could have tons of empty buckets__ Create buckets, hash values to each bucket, sort buckets individually, iterate buckets one by one to sorted array. |
-| [Radix Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#radix-sort) | Done | Use counting sort on every digit, starting with least significant. |
-| [Counting Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#counting-sort) | Done | __best for keys in a small specific range__ make array size of data range, add number of values appearances up in counting array. Use counting array to create sorted array.  |
-| [BFS](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#bfs) | Good | Use a queue, mark nodes |
-| [DFS](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#dfs) | Good | DFS(node) for node.children DFS(Child) => make nodes for cycles |
-| [*Selection Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#selection-sort) | Done | Select the smallest element, place it at the front. Repeat... |
-| [*Insertion Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#insertion-sort) | Done | Iterate through list. Insert next element into subarray starting at front of original array |
-| [*Heap Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#heap-sort) | Done | heapsort by extract root (swap w/ bottommost rightmost) bubbledown root using only remaining elements. |
-| [*Tree Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#tree-sort) | | Turn data into BST, the in-order traversal for sorted data. |
-| [*Cube Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#cube-sort) | | Complex 3d array sort. [info](https://sites.google.com/site/binarysearchcube/bsc) & [code for cubesort](https://docs.google.com/file/d/0B8KIVX-AaaGiUnJKcUN3SlRrU1E/edit) |
-| [*Shell Sort](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#shell-sort) | Done | Use insetion Sort on sub arrays. Sub arrays are determined by an interval: h = h*3+1. Shrink interval. __Useful for sorting small arrays in place, worst case is better than some other algos. Also simplier to implement__ |
-| [Djikstra, Bi-directional search]() | | Investigate Djikstra, Bi-directional search and more - FB seems key about graphs, i.e. their main API |
-| [*Topological Sort]() | | 4.7 in CTCI, order all nodes so edge (a, b), a appears before b. linearly sorted.  |
-
-| Concept | Status | Implementation and Notes |
-| ------- | ------ | ------------------------ |
-| [Recursion](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#recursion) |  | Need practice for linked list, binary search, and others. Bottom up or top down. Bottom-up think mergesort - solve small subsets, then combine result. top-down - ? |
-| [Probability](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#probability) |  |
-| [Bit Manipulation](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#bit-manipulation) | Close | Need programming practice, general ops are good |
-| [Java & O-O Design](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#java--o-o-design) |  | O-O concepts abstraction, inheritance, cohesion, coupling etc. & other mastery/Basic APIs - especially math |
-| [Threads, locks, mutex, semaphore](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#threads-locks-mutex-semaphore) |  |
-| [Dynamic Programming](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#dynamic-programming) |  | Memomiztion and bottom up. Memomization - solve each problem, cache results i.e. making a fib call to each number once. Bottom-up solve the small problems, use the results to add to your new set of sub-problems i.e. step counting problem, only set amount of ways to reach a new step, add prev totals also. __start with recursion then cache the result. Bottom up => build from previous, Top down => save results, check if you already solved__ |
-| [NP-Complete](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#np-complete) |  |
-| [Memory (Stack vs. Heap)](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#memory-stack-vs-heap) |
-| [Minimum Cuts](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#minimum-cuts) |
-| [Powers of 2](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#powers-of-2) |
-
-| Trick | Explanation |
-| ------- | ------------------------ |
-| [Find digit in number](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md#find-digit) | With 802 digit at place 2 is 8, place 1 is 0, place 0 is 2 |
-|  | |
-|  | |
-|  | |
 # Data Structures
 
 ### LinkedList

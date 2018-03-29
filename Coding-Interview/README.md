@@ -112,6 +112,3 @@ FB site to practice coding: https://codelab.interviewbit.com/registration. (Care
 
 [Tutorial point data structures and algos](https://www.tutorialspoint.com/data_structures_algorithms/index.htm)
 
-[The Approach](https://urldefense.proofpoint.com/v2/url?u=https-3A__vimeo.com_interviewprepsession_theapproach&d=DwMFaQ&c=5VD0RTtNlTh3ycd41b3MUw&r=Hj6SlnhSj8-qyeKS_DqrrcbP4YgfQ0OtqFui84mKYLw&m=SYtT4S1US24XSYdjTG2k9rKwA3XPEipYjAtVls22LrI&s=G7EqaDOAcvYywS2JVqDINtgWl3Q3mMOeRlVRtX1wl5g&e=) 1hr 20m / 1hr 50m
-
-[Problem Walk-Through](https://urldefense.proofpoint.com/v2/url?u=https-3A__vimeo.com_interviewprepsession_problemwalkthrough&d=DwMFaQ&c=5VD0RTtNlTh3ycd41b3MUw&r=Hj6SlnhSj8-qyeKS_DqrrcbP4YgfQ0OtqFui84mKYLw&m=SYtT4S1US24XSYdjTG2k9rKwA3XPEipYjAtVls22LrI&s=skjADeDJsf3qRBkMVZ4DxH_qknYL_GkFb2WWRjAUoMc&e=) 0/1hr

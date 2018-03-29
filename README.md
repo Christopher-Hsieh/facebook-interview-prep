@@ -12,57 +12,24 @@ Please note that this was a personal repo I used to study for the interview. I d
 
 ## Review for sections
 #### [Coding Interviews](https://github.com/JumpingRock/Interviews/tree/master/Coding-Interview) 
-- One Data structure and Algorithm. 
-- Problem from GraphTree, RecursionDP, Moderate, Hard.
-- Review random section and/or review notes on problems.
+- Data structure and Algorithm details. 
+- Problemd from GraphTree, RecursionDP, Moderate, Hard.
 
 #### [Experience Interview](https://github.com/JumpingRock/Interviews/tree/master/Experience-Interview)
 - Questions, practice/answer
 - Project & S.A.R. tables
-- Research, Gather questions from online - glassdoor, careercup
+- Research, online question resources - glassdoor, careercup
 - Other on experience.md
 
 #### [Design Interview](https://github.com/JumpingRock/Interviews/tree/master/Design-Interview) 
-- Review and Use tips/strategies.
-- Rewatch hiredintech.com 
+- Tips/strategies.
+- Videos from hiredintech.com 
 - Practice questions from Glassdoor and Careercup, CTCI, Glassdoor and Careercup, hiredintech.com 
-- Questions also from Linkes in Design Interview.md
-- CTCI problem from DBs (Chpater 14) and scalability design (Chapter 9)
-
-
-#### Travel Study Sources
-- Experience: 
-  - Proj. common questions 
-  - S.A.R
-  - Resume to review
-  - Any info on resume need to review, i.e. elastic search, spring, angular etc.
-  - FB info, blogs, whatever to print
-  - Other common questions
-- Coding:
-  - Spanning Tree
-  - NP-Complete
-  - Minimum Cuts
-  - CTCI - Red-Black Tree
-  - CTCI - Primes, probablility section Sieve of Eratosthenes
-  - CTCI - hreads, locks, mutex, semaphore
-  - CTCI - Djikstra and Bi-directional search
-  - CTCI - Topological Sort
-  - CTCI - Map Reduce
-  - CTCI - HashTable collision
-  - Online - Memory (Stack vs. Heap)
-  - Online - tree sort, cube sort
-  - Maybe print learning.md to review, and/or print other cheat sheets
-  - Bring questions if we need them, MIT handout, glassdoor, careercup
-- Design: - use wifi 
-  - Practice questions we can do on plane. Quora, career cup, ctci, more: [maybe question and answer examples here](https://www.educative.io/collection/5668639101419520/5649050225344512)
-  - Info on companies technologies. Cassandra.
-  - Maybe videos, i.e. how not to design netflix
-  - Print info on DB schemas, REST Apis, AJAX, MVC, other frameworks
-
+- Questions also from Links in Design Interview.md
+- CTCI problems from DBs (Chpater 14) and scalability design (Chapter 9)
 
 
 # Additional Resources:
-
 ### Interview Overview
 [Blog post from Carlos Bueno (Current FB Engineer)](https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920) - Similar to video above, but has better resources. 
 

@@ -1,14 +1,14 @@
 # Welcome to a Guide for acing the Facebook Software Developer Interview
 #### Inside of this guide there are many resources ranging from concepts to runnable code. To use the guide I would carefully run through the different resources. The Facebook interview is roughly caterogized by phone interview, then an onsite interview. The onsite interview is further broken down into coding, design, and experiance interviews.
 
-#### The phone interview folder in this repo simply has my rough notes and schedule I used to prepare/study prior.
+The phone interview folder in this repo simply has my rough notes and schedule I used to prepare/study prior.
 
-#### The other folders breakdown the onsite interview into the three different types of interviews you will recieve. The README's in each folder will give details about what kind of resources are there, what to expect, and more.
+The other folders breakdown the onsite interview into the three different types of interviews you will recieve. The README's in each folder will give details about what kind of resources are there, what to expect, and more.
 
-#### Please note that this was a personal repo I used to study for the interview. I decided to release it to the public since I worked on it for some time. If you have questions or would like to submit any PR's, I am active and would be happy to respond to either. Enjoy and good luck! 
+Please note that this was a personal repo I used to study for the interview. I decided to release it to the public since I worked on it for some time. If you have questions or would like to submit any PR's, I am active and would be happy to respond to either. Enjoy and good luck! 
 
 
-# As a final note. It is a highly likely that this cheat sheet will be the most valuable to you: [Learning the Coding Interview](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md)
+## As a final note. It is a highly likely that this cheat sheet will be the most valuable to you: [Learning the Coding Interview](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Coding-Interview/Learning.md)
 
 ## Review for sections
 #### [Coding Interviews](https://github.com/JumpingRock/Interviews/tree/master/Coding-Interview) 

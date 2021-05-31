@@ -52,23 +52,20 @@ What content you should know
 - spanning tree
 - minimum cuts as well
 
-## (Behavioral) Typical questions asked. And example answers
+
+## (Behavioral) Typical questions asked
 
 - ##### Imagine it is your first day here at Facebook. What do you want to work on? 
-  - I'd likely be on a team that has been developing an app or feature. I would love to learn the end-to-end process of how it worked, examine who was going to use it, examine previous design decisions and the direction that we would like to move. Basically I would want to work on learning about everything in place already so I could move as fast as I could.
+
 - ##### What features would you improve on? 
-  - A Map for check ins that cna be shared across friends to see common places we have both been.
+
 - ##### Why are you interested in Facebook? 
-  - Several reasons. 1. Most importantly I want to move quick, learn as much as I can and create things w/ an impact, right now I feel like i'm playing catchup with tools and technologies when I want to leading it. It seems like FB has this exact community.
-  - 2. The collab, I want to work alongside people who will push themselves and learn from each other. A group always striving to be the best.
-  - 3. Openness, FB constantly talks about how all parts of the company should be open to all employees. If I want to learn about the VR product than I should be able to read their APIs. Right now I can't even configure my own deploy plan.
-  - 4. The leadership, Sheryl Sandberg seems amazing. Heard her talk a few times and learned about Zuckerburgs Q/A. I'd be happy to go in the direction they want, and if I don't I can likely voice my opinion.
+
 - ##### Know about our technical environment, projects, challenges, etc. and be excited! 
-  - Huge eco system of people working together to create new things. Products that scale out massively, move quickly, and ship constantly. Also researching lots of new tech. everywhere.
+ 
 - ##### What are the most interesting projects you have worked on and how might they be relevant to the Facebook environment? 
-  - Always collecting data. Figuring out how to analyze it, store it, never worry about storage.
+
 - ##### What are some of the biggest professional challenges you have faced, and how you have overcome them?
-  - Not really on the coding side, but trying to convince my team to work harder. Scenario - ppl. moved slow, didnt follow procedure, etc. Solution - Have us experiment with new tech. and code reviews, tried to show the impact and how much they could learn, figured out what people liked to work on and put them on it. Most importantly I tried to get their customer excited by presenting our work differently. Result - Happy workers, more output, one of the top teams, more knowledge sharing.
 
 
 
@@ -130,11 +127,7 @@ Online: Cracking the Facebook Coding Interview - [Summary](http://www.crackingth
 5. (days 6-18) Tackle as many programming questions as possible. Cracking the coding interview - once completed look at Facebook programming questions, then  other resources.
 
 
-May 19 - Figure out what I need to do, gather resources.
-
-May 20 - Created timeline, studied what a prepared candidate is.
-
-May 21 - Benchmark. 
+ Benchmark. 
 - Chapter 1 Strings and Arrays => Okay
 - Chapter 2 LinkedLists => Not Bad, need practice. Write my own implementation of linked list
 - Chapter 3 Stacks and Queues => Bad, need to implement on my own and practice usage
@@ -150,38 +143,6 @@ May 21 - Benchmark.
 - Chapter 5 Bit Manipulation
 - Chapter 15 Databases 
 - Chapter 16 Threads and Locks => Okay, needs practice. Lower priority though.
-
-May 22 - random FB questions, implemented stack and linked list. Basic recursion function.
-
-May 23 - random FB questions, String permutation (recursion), basic tree traversal
-
-May 24 - Day off
-
-May 25 - implement Stacks and Queues, other stacks/queue questions. Implemented Trie. Sting buffer.
-
-May 26 - none
-
-May 27 - none
-
-May 28 - Bubble sort, read about heaps, used vectors, merge sort.
-
-May 29 - quicksort, bucket sort, ctci substring rotation/palindrome.
-
-May 30 - Sorting searching and string problems.
-
-May 31 - Sorting, did interview w/ other company.
-
-June 1 
-
-June 2
-
-June 3
-
-June 4 - Review
-
-June 5 - Interview
-
-Cheat Sheets:
 
 [Github Fork - descriptions, explanations, what we should know, etc.](https://github.com/JumpingRock/facebook-interview-prep/blob/master/Phone-interview/CheatSheet.md)
 

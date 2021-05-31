@@ -46,14 +46,9 @@
 6. __Wrap Up:__ 
 
 ##### Why are you interested in Facebook? & Examples
-1. Most importantly I want to move quick, learn as much as I can and create things w/ an impact, right now I feel like i'm playing catchup with tools and technologies when I want to leading it. It seems like FB has this exact community.
-2. The collab, I want to work alongside people who will push themselves and learn from each other. A group always striving to be the best.
-3. Openness, FB constantly talks about how all parts of the company should be open to all employees. If I want to learn about the VR product than I should be able to read their APIs. Right now I can't even configure my own deploy plan.
-4. The leadership, Sheryl Sandberg seems amazing. Heard her talk a few times and learned about Zuckerburgs Q/A. I'd be happy to go in the direction they want, and if I don't I can likely voice my opinion.
-
 
 ##### New features I would add to facebook/What features would you improve on? 
-- A Map for check ins that cna be shared across friends to see common places we have both been.
+
 
 ##### What are some of the biggest professional challenges you have faced, and how you have overcome them?
 
